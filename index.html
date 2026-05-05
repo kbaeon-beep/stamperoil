@@ -125,7 +125,7 @@
       border-top: 1px solid var(--line);
       display: grid;
       grid-template-columns: 0.35fr 1fr;
-      gap: 48px;
+      gap: 32px;
     }
 
     .section-label {
@@ -159,20 +159,18 @@
 
     .company {
   display: grid;
-  gap: 4px;
-}
-
-.company div {
-  margin: 0;
+  gap: 8px;
 }
 
 .company div:first-child {
+  font-size: 28px;
   font-weight: 600;
 }
 
 .company .muted {
-  opacity: 0.7;
-  font-size: 18px;
+  font-size: 16px;
+  opacity: 0.6;
+  letter-spacing: 0.05em;
 }
 
     .muted {
@@ -180,12 +178,10 @@
     }
 
     .contact-link {
-      display: inline-block;
-      font-size: clamp(18px, 2vw, 28px);
-      line-height: 1.4;
-      border-bottom: 2px solid var(--red);
-      padding-bottom: 8px;
-    }
+  font-size: clamp(18px, 2vw, 28px);
+  line-height: 1.4;
+  border-bottom: 2px solid var(--red);
+}
 
     footer {
       padding: 48px 0 24px;
