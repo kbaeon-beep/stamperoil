@@ -100,8 +100,8 @@
     }
 
     .hero-copy {
-      font-size: clamp(42px, 7vw, 110px);
-      line-height: 0.92;
+      font-size: clamp(36px, 5vw, 72px);
+  　　 line-height: 1.05;
       font-weight: 500;
       max-width: 760px;
     }
@@ -153,11 +153,22 @@
     }
 
     .company {
-      display: grid;
-      gap: 22px;
-      font-size: clamp(24px, 3vw, 44px);
-      line-height: 1.1;
-    }
+  display: grid;
+  gap: 4px;
+}
+
+.company div {
+  margin: 0;
+}
+
+.company div:first-child {
+  font-weight: 600;
+}
+
+.company .muted {
+  opacity: 0.6;
+  font-size: 0.8em;
+}
 
     .muted {
       color: var(--muted);
@@ -247,7 +258,7 @@
           <div class="pre-title">Yes. We are</div>
           <div class="logo-wrap">
             <!-- ロゴ画像を同じフォルダに置き、ファイル名を logo.png にしてください -->
-            <img class="logo" src="logo.png" style="width: 200px;" alt="STAMPER OIL" />
+            <img class="logo" src="logo.png" style="width: 320px;" alt="STAMPER OIL" />
           </div>
         </div>
         <div>
