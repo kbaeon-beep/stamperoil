@@ -57,6 +57,10 @@
       mix-blend-mode: difference;
       color: #fff;
     }
+    .header-logo {
+  width: 180px;
+  mix-blend-mode: normal;
+}
 
     nav {
       display: flex;
@@ -92,9 +96,10 @@
     .pre-title {
       font-family: Georgia, 'Times New Roman', serif;
       font-style: italic;
-      font-size: clamp(40px, 6vw, 92px);
+      font-size: clamp(14px, 1.5vw, 22px);
       font-weight: 400;
       color: var(--red);
+      opacity: 0.7;
       margin-bottom: 32px;
       line-height: 0.95;
     }
@@ -166,8 +171,8 @@
 }
 
 .company .muted {
-  opacity: 0.6;
-  font-size: 0.8em;
+  opacity: 0.7;
+  font-size: 18px;
 }
 
     .muted {
@@ -176,9 +181,9 @@
 
     .contact-link {
       display: inline-block;
-      font-size: clamp(36px, 6vw, 92px);
-      line-height: 1;
-      border-bottom: 3px solid var(--red);
+      font-size: clamp(18px, 2vw, 28px);
+      line-height: 1.4;
+      border-bottom: 2px solid var(--red);
       padding-bottom: 8px;
     }
 
@@ -229,7 +234,7 @@
       }
 
       section {
-        padding: 88px 0;
+        padding: 80px 0;
       }
 
       footer {
@@ -243,7 +248,9 @@
   <div class="grain"></div>
 
   <header>
-    <a href="#top">STAMPER OIL</a>
+    <a href="#top">
+  <img src="logo.png" class="header-logo" />
+</a>
     <nav>
       <a href="#about">About</a>
       <a href="#work">Work</a>
@@ -258,7 +265,7 @@
           <div class="pre-title">Yes. We are</div>
           <div class="logo-wrap">
             <!-- ロゴ画像を同じフォルダに置き、ファイル名を logo.png にしてください -->
-            <img class="logo" src="logo.png" style="width: 320px;" alt="STAMPER OIL" />
+            <img class="logo" src="logo.png" style="width: 420px;" alt="STAMPER OIL" />
           </div>
         </div>
         <div>
